@@ -1,0 +1,19 @@
+{
+  "name": "fixture-game",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": { "$path": "src/shared" },
+      "Remotes": {
+        "$className": "Folder",
+        "BuyItem": { "$className": "RemoteEvent" }
+      }
+    },
+    "ServerScriptService": { "$path": "src/server" },
+    "ServerStorage": { "Tools": { "$path": "tools.project.json" } },
+    "StarterPlayer": {
+      "StarterPlayerScripts": { "$path": "src/client" }
+    },
+    "Lighting": { "$properties": { "Technology": "Future" } }
+  }
+}
